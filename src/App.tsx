@@ -8,9 +8,10 @@ const BOOT_LINES = [
 ]
 
 const LINKS: { label: string; href: string; desc: string }[] = [
-  { label: 'github',   href: 'https://github.com/sorryfornow', desc: '// code & projects' },
-  { label: 'email',    href: 'mailto:hi@siqing.site',          desc: '// say hello' },
-  // add more as needed
+  { label: 'github',    href: 'https://github.com/sorryfornow',                    desc: '// code & projects' },
+  { label: 'linkedin',  href: 'https://www.linkedin.com/in/siqing-zhang-9b0826233/', desc: '// professional' },
+  { label: 'instagram', href: 'https://www.instagram.com/siqing_z/',               desc: '// life & photos' },
+  { label: 'email',     href: 'mailto:siqingzhang0210@gmail.com',                  desc: '// say hello' },
 ]
 
 function Cursor() {
