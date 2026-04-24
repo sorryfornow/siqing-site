@@ -8,6 +8,10 @@
   "assets": {
     "not_found_handling": "single-page-application"
   },
+  "routes": [
+    { "pattern": "siqing.site", "custom_domain": true },
+    { "pattern": "www.siqing.site", "custom_domain": true }
+  ],
   "compatibility_flags": [
     "nodejs_compat"
   ]
