@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/siqingzhang/.nvm/versions/**)",
+      "Bash(export PATH=\"$PATH:/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin\")",
+      "Read(//opt/homebrew/Cellar/node/**)",
+      "Bash(/opt/homebrew/bin/node -v)"
+    ]
+  }
+}
